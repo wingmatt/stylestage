@@ -5,4 +5,8 @@
   border: 0.16em solid var(--color-primary);
   box-shadow: 0.12em 0.12em var(--color-secondary);
   place-content: center;
+  background: linear-gradient(to bottom, var(--color-primary), var(--color-primary-alt));
+  background-clip: text;
+  color: transparent;
+  border-radius: clamp(24px, 5vw, 120px) 0 clamp(24px, 5vw, 120px) 0;
 }
